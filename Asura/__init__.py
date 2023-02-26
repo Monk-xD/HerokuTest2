@@ -9,8 +9,8 @@ API_HASH = getenv("API_HASH")
 TOKEN = getenv("TOKEN")
 LOG = getenv("LOG")
 
-asura = Client(
-  "ASURA",
+app = Client(
+  "ROBOT",
   api_id=API_ID,
   api_hash=API_HASH,
   bot_token=TOKEN
