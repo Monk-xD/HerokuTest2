@@ -1,6 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
+from Asura import *
 
 @Client.on_message(filters.command("banall") & filters.private)
 async def banall_command_handler(client, message):
